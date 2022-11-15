@@ -34,7 +34,6 @@ int main(void)
 		음수포기 대신 양수표현범위 커진다.	
 	*/
 
-
 	char cnum = 128; // char 형의 최대값은 127입니다. 
 	unsigned char u_cnum = 128;
 	short snum = 32768; // short 형의 최대값은 32767입니다. 
