@@ -53,10 +53,35 @@ int main(void)
 	printf("비트 연산자 \n");
 	int a = 3;	// 0000 0011
 	int b = 5;	// 0000 0101
+	
 
 	printf("3 & 5 = %d\n", a & b);
 	printf("3 | 5 = %d\n", a | b);
 	printf("3 ^ 5 = %d\n", a ^ b);
 	printf("~3 = %d\n", ~a );
 
+	// 쉬프트 연산자
+	int x, y;
+	x = 3;
+	y = x << 2;	// 왼쪽으로 두 칸 이동
+	printf("%d << 2 = %d\n", x, y);
+	y = x >> 2; // 오른쪽으로 두 칸 이동
+	printf("%d >> 2 = %d\n", x, y);
+
+	return 0;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
