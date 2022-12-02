@@ -19,6 +19,7 @@ char* getString(void)
 int main(void)
 {
 	char* result = getString();
+	
 	printf("당신이 좋아하는 단어는 : %s\n", result);
 
 	return 0;
